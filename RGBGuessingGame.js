@@ -62,7 +62,6 @@ function reset()
 		squares[i].style.display = "block";	
 		arr[i] ? squares[i].style.backgroundColor = arr[i] : squares[i].style.display = "none";
 		squares[i].addEventListener("click", squareCheck);
-		squares[i].addEventListener("touchend", squareCheck);
 	}
 }
 
