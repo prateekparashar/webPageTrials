@@ -25,6 +25,14 @@ body
 
 }
 
+p
+{
+	position: relative;
+	margin: auto 25% ;
+	padding-top: 400px;
+	color: white;
+}
+
 h1
 {
 	color: white;
@@ -85,12 +93,4 @@ button:hover
 {
 	color: white;
 	background: steelblue;
-}
-
-p
-{
-	position: relative;
-	margin: auto 25% ;
-	padding-top: 400px;
-	color: white;
 }
