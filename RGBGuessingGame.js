@@ -30,7 +30,7 @@ function init()
 	reset();
 	resetButton.addEventListener("click",reset);
 	for (var i = 0; i < modebtn.length; i++)
-	{ modebtn[i].addEventListener("click",button); }
+	{ modebtn[i].addEventListener("click",button);}
 }
 
 // Generate random numbers
@@ -62,6 +62,7 @@ function reset()
 		squares[i].style.display = "block";	
 		arr[i] ? squares[i].style.backgroundColor = arr[i] : squares[i].style.display = "none";
 		squares[i].addEventListener("click", squareCheck);
+		squares[i].addEventListener("touchend", squareCheck);
 	}
 }
 
